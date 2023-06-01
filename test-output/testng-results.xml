@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-31T22:05:11 ART" name="Default suite" finished-at="2023-05-31T22:05:44 ART" duration-ms="32864">
+    <groups>
+    </groups>
+    <test started-at="2023-05-31T22:05:11 ART" name="Default test" finished-at="2023-05-31T22:05:44 ART" duration-ms="32864">
+      <class name="Test.Pruebas">
+        <test-method is-config="true" signature="abrirPagina()[pri:0, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:09 ART" name="abrirPagina" finished-at="2023-05-31T22:05:11 ART" duration-ms="2781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirPagina -->
+        <test-method signature="registrarUsuario()[pri:1, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:11 ART" name="registrarUsuario" description="TC01 - registrar usuario" finished-at="2023-05-31T22:05:19 ART" duration-ms="7424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarUsuario -->
+        <test-method signature="logOut()[pri:2, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:19 ART" name="logOut" description="TC02 - Deslogear usuario" finished-at="2023-05-31T22:05:23 ART" duration-ms="3891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method signature="loginErroneo(java.lang.String,java.lang.String)[pri:3, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:23 ART" name="loginErroneo" description="TC03 - Login Erroneo" data-provider="Obtener Datos Excel" finished-at="2023-05-31T22:05:24 ART" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdasd123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErroneo -->
+        <test-method signature="loginErroneo(java.lang.String,java.lang.String)[pri:3, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:24 ART" name="loginErroneo" description="TC03 - Login Erroneo" data-provider="Obtener Datos Excel" finished-at="2023-05-31T22:05:25 ART" duration-ms="1031" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jkasd2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErroneo -->
+        <test-method signature="loginErroneo(java.lang.String,java.lang.String)[pri:3, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:25 ART" name="loginErroneo" description="TC03 - Login Erroneo" data-provider="Obtener Datos Excel" finished-at="2023-05-31T22:05:27 ART" duration-ms="1216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sad1234123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErroneo -->
+        <test-method signature="loginErroneo(java.lang.String,java.lang.String)[pri:3, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:27 ART" name="loginErroneo" description="TC03 - Login Erroneo" data-provider="Obtener Datos Excel" finished-at="2023-05-31T22:05:28 ART" duration-ms="1272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdas222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErroneo -->
+        <test-method signature="loginErroneo(java.lang.String,java.lang.String)[pri:3, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:28 ART" name="loginErroneo" description="TC03 - Login Erroneo" data-provider="Obtener Datos Excel" finished-at="2023-05-31T22:05:29 ART" duration-ms="1233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mail5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234123sdds]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErroneo -->
+        <test-method signature="loginValido()[pri:4, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:29 ART" name="loginValido" description="TC04 - login credenciales validas" finished-at="2023-05-31T22:05:33 ART" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValido -->
+        <test-method signature="buscarPorNombre()[pri:5, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:33 ART" name="buscarPorNombre" description="TC05 - Buscar un producto por nombre" finished-at="2023-05-31T22:05:37 ART" duration-ms="4350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buscarPorNombre -->
+        <test-method signature="buscarPorTipo()[pri:6, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:37 ART" name="buscarPorTipo" description="TC06 - Buscar un producto por tipo" finished-at="2023-05-31T22:05:40 ART" duration-ms="2810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buscarPorTipo -->
+        <test-method signature="contactUs()[pri:7, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:40 ART" name="contactUs" description="TC07 - Probar el apartado Contact us" finished-at="2023-05-31T22:05:43 ART" duration-ms="2509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUs -->
+        <test-method signature="borrarCuenta()[pri:8, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:43 ART" name="borrarCuenta" description="TC08 - Borrar cuenta" finished-at="2023-05-31T22:05:44 ART" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- borrarCuenta -->
+        <test-method is-config="true" signature="cerrarChrome()[pri:0, instance:Test.Pruebas@369c9bb]" started-at="2023-05-31T22:05:44 ART" name="cerrarChrome" finished-at="2023-05-31T22:05:45 ART" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarChrome -->
+      </class> <!-- Test.Pruebas -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
